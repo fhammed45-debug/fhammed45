@@ -1,0 +1,63 @@
+body{
+    background-color: brown;
+    padding: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+section, header, nav, footer{
+    max-width: 768px;
+    margin: 0px auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: pink;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: white 5px 5px 2.5px;
+}
+h1, h2{
+    color: white;
+
+}
+p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: gray;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+ 
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.aboutsection{
+    align-content: center;
+
+}
+.projectssection img{
+    border-radius: 15px;
+    
+}
+.contactsection form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 200px;
+}
+.contactsection {
+   display: grid;
+   place-items: center;
+   }
+   .contactsection button{
+    background-color: blue;
+    color: white;
+
+   }
